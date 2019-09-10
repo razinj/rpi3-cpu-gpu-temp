@@ -21,7 +21,7 @@ It would be better to use the script with a cronjob for monitoring purposes.
 
 Example:
 
-This will run the script (JS one) every hour.
+This will run the script every hour.
 
 ```bash
 crontab -e
