@@ -9,8 +9,8 @@ let cpu_temp = null;
 const getGpuTemp = () => {
 	return new Promise((resolve, reject) => {
 		exec('vcgencmd measure_temp', (error, stdout, stderr) => {
-    		if(error) { reject() }
-    		gpu_temp = stdout.replace(/^\D*/g, '');
+    			if(error) { reject() }
+    			gpu_temp = stdout.replace(/^\D*/g, '');
 			resolve();
 		});
 	});
