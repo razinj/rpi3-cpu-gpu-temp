@@ -6,7 +6,7 @@ Run any of the scripts they both serve the same purpose, The result will be outp
 Shell script : 
 
 ```bash
-bash rpi3-temp.sh`
+bash rpi3-temp.sh
 ```
 
 Javascript script : 
