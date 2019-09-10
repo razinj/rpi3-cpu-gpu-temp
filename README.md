@@ -3,9 +3,17 @@ Raspberry Pi 3 - Get CPU/GPU temperatures scripts.
 
 Run any of the scripts they both serve the same purpose, The result will be outputted into a file in the same directory.
 
-Bash script : `bash rpi3-temp.sh`
+Shell script : 
 
-Javascript script : `node rpi3-temp.js`
+```bash
+bash rpi3-temp.sh`
+```
+
+Javascript script : 
+
+```bash
+node rpi3-temp.js
+```
 
 ## Notice:
 
@@ -21,4 +29,10 @@ crontab -e
 
 ```bash
 0 * * * * /home/pi/.nodejs/bin/node /home/pi/rpi3-temp.js
+```
+
+Or
+
+```bash
+0 * * * * /home/pi/rpi3-temp.sh
 ```
