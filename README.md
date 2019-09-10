@@ -1,7 +1,7 @@
 # RPI3 - Get CPU/GPU Temperatures Scripts
 Raspberry Pi 3 - Get CPU/GPU temperatures scripts.
 
-Run any of the scripts they both serve the same purpose.
+Run any of the scripts they both serve the same purpose, The result will be outputted into a file in the same directory.
 
 Bash script : `bash rpi3-temp.sh`
 
