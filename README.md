@@ -1,6 +1,6 @@
-# RPI3 - Get CPU/GPU Temperatures Scripts
+# Scripts to get RPI3 CPU/GPU Temperatures
 
-Raspberry Pi 3 - Get CPU/GPU temperatures scripts.
+Scripts to get Raspberry Pi 3 CPU/GPU temperatures.
 
 Run any of the scripts they both serve the same purpose, The result will be outputted into a file in the same directory.
 
