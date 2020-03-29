@@ -29,11 +29,11 @@ crontab -e
 ```
 
 ```bash
-0 * * * * /home/pi/.nodejs/bin/node /home/pi/rpi3-temp.js
+0 * * * * /home/${USER}/.nodejs/bin/node /home/${USER}/rpi3-temp.js
 ```
 
 Or
 
 ```bash
-0 * * * * /home/pi/rpi3-temp.sh
+0 * * * * /bin/bash /home/${USER}/rpi3-temp.sh
 ```
